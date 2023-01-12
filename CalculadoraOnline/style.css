@@ -1,0 +1,56 @@
+body{
+	background-image: url(https://cdn.clinicabaviera.com/blog/wp-content/uploads/2018/02/mejor-luz-para-estudiar.jpg);
+	background-size: cover;
+	font-family: 'Josefin Sans';
+}
+
+@media screen and (max-width: 900px){
+	body{
+		background-size: 210%;
+	}
+}
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+
+fieldset{
+	height: 55px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.58);
+	border-radius: 8px;
+}
+
+label, p{
+	color: white;
+}
+
+span{
+	color: red;
+}
+
+input{
+	border: none;
+	outline: none;
+	padding: 6px;
+	font-size: 13px;
+	width: 190px;
+}
+
+button{
+	border: none;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 5px;
+	transition: .1s;
+	border-radius: 2px;
+}
+
+button:hover{
+	background-color: #9f0000;
+}
