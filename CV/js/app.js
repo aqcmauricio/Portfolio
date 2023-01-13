@@ -1,6 +1,7 @@
 'use strict'
 
 $(document).ready(()=>{
+    let timerInterval;
     Swal.fire({
         position: 'bottom-end',
         title: 'Quiero contarte que esta página aún está en proceso de desarrollo.',
@@ -24,6 +25,7 @@ $(document).ready(()=>{
             clearInterval(timerInterval)
         }
     });
+
     $('body').on({'mousemove' : function( e ){
         let clientX = e.originalEvent.clientX;
         let clientY = e.originalEvent.clientY;
@@ -31,7 +33,7 @@ $(document).ready(()=>{
             'left': (clientX - 10) + 'px',
             'top': (clientY - 10) + 'px'
         })
-    }})
+    }});
 
     $('a').on({
         'mouseover' : function(){
@@ -40,5 +42,5 @@ $(document).ready(()=>{
         'mouseout' : function(){
             $('#cursor').removeClass('mini');
         }
-    })
-})
+    });
+});
