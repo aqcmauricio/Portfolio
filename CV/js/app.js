@@ -2,13 +2,15 @@
 
 $(document).ready(()=>{
     Swal.fire({
+        position: 'bottom-end',
         title: 'Quiero contarte que esta página aún está en proceso de desarrollo.',
         imageUrl: './assets/foto4.png',
         imageWidth: 40,
-        imageHeight: 250,
+        imageHeight: 200,
         imageAlt: 'Custom image',
         html: '¡Gracias por tu visita! <b></b> segundos.',
-        background: '#fff',
+        color: '#993',
+        background: '#1340',
         timer: 10000,
         timerProgressBar: true,
         didOpen: () => {
