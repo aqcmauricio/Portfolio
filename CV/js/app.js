@@ -4,7 +4,7 @@ $(document).ready(()=>{
     Swal.fire({
         title: 'Quiero contarte que esta página aún está en desarrollo.',
         text: '¡Gracias por tu visita!',
-        imageUrl: '../CV/assets/foto.png',
+        imageUrl: './assets/foto.png',
         imageWidth: 200,
         imageHeight: 250,
         imageAlt: 'Custom image',
