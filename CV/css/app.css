@@ -105,8 +105,8 @@ body {
     cursor: none;
 }
 
-span{
-    margin: 10px;
+span, input{
+    margin-left: 10px;
 }
 
 .check{
